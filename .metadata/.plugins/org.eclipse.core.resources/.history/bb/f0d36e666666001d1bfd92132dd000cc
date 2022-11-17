@@ -1,0 +1,6 @@
+package dev.noemontes.reactive.dto;
+
+@Data
+public class UserDto {
+
+}

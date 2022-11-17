@@ -1,0 +1,8 @@
+package dev.noemontes.reactive.repository.impl;
+
+import org.springframework.stereotype.Repository;
+
+import dev.noemontes.reactive.repository.UserRepository;
+
+@Repository
+public class UserRepositoryImpl implements UserRepository{}

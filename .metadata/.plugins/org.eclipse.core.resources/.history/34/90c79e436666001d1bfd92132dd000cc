@@ -1,0 +1,5 @@
+package dev.noemontes.reactive.controller;
+
+public class UserReactiveController {
+
+}

@@ -1,0 +1,5 @@
+package dev.noemontes.reactive.repository.impl;
+
+public class UsuarioRepositoryImpl {
+
+}

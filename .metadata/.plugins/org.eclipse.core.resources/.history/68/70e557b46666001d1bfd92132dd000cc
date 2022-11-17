@@ -1,0 +1,11 @@
+package dev.noemontes.reactive.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserReactiveController {
+	private static final int DEFAULT_PORT = 8080;
+	
+	
+	
+}

@@ -1,0 +1,5 @@
+package dev.noemontes.reactive.repository.impl;
+
+import dev.noemontes.reactive.repository.UsuarioRepository;
+
+public class UsuarioRepositoryImpl implements UsuarioRepository{}
