@@ -21,4 +21,7 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
     <fullyQualifiedTypeName name="dev.noemontes.reactive.dto.UserDto"/>
+    <fullyQualifiedTypeName name="org.springframework.web.reactive.function.client.WebClient"/>
+    <fullyQualifiedTypeName name="dev.noemontes.reactive.client.dto.UserDto"/>
+    <fullyQualifiedTypeName name="dev.noemontes.reactive.client.UserWebClient"/>
 </qualifiedTypeNameHistroy>
