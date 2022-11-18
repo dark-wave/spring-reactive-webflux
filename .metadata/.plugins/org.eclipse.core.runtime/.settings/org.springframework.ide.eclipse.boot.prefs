@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.integration=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.lombok=3
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.webflux=3
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=ReactiveWebClient
