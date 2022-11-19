@@ -9,5 +9,4 @@ public class ReactiveFluxServerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ReactiveFluxServerApplication.class, args);
 	}
-
 }

@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\workspaces_sts_4.3.0\\SpringFluxDemo\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
+GitRepositoriesView.GitDirectories=/Users/noemontes/Documents/WorkspacesSts/spring-reactive-webflux/.git\:/Users/noemontes/Documents/WorkspacesSts/spring-reactive-webflux/.git;\:
+GitRepositoriesView.GitDirectories.relative=.git\:.git;\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
