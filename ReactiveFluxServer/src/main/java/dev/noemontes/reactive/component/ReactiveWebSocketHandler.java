@@ -34,13 +34,11 @@ public class ReactiveWebSocketHandler implements WebSocketHandler{
 	});
 	
 	private Flux<String> intervalFlux = Flux.interval(Duration.ofMillis(1000L))
-											.zipWith(eventFlux, (time, event) -> event);
-	
+											.zipWith(eventFlux, (time, event) -> event);	
 	
 	@Override
 	public Mono<Void> handle(WebSocketSession webSocketSession) {
 		return webSocketSession.send(intervalFlux.map(webSocketSession::textMessage))
-								.and(webSocketSession.receive()
-										.map(WebSocketMessage::getPayloadAsText).log());
+								.and(webSocketSession.receive().map(WebSocketMessage::getPayloadAsText).log());
 	}
 }
