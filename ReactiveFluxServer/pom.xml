@@ -50,6 +50,15 @@
 			<artifactId>spring-integration-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-r2dbc</artifactId>
+		</dependency>
+		<dependency>
+    		<groupId>org.postgresql</groupId>
+    		<artifactId>r2dbc-postgresql</artifactId>
+    		<version>1.0.0.RELEASE</version>
+		</dependency>
 	</dependencies>
 
 	<build>
