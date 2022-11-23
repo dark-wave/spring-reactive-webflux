@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Event {
-	private String eventId;
-	private String eventDt;
+public class Message {
+	private String messageId;
+	private String messageTime;
 }

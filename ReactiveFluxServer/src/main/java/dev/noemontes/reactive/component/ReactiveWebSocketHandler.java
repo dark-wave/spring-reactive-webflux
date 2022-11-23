@@ -13,7 +13,7 @@ import org.springframework.web.reactive.socket.WebSocketSession;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import dev.noemontes.reactive.dto.Event;
+import dev.noemontes.reactive.dto.Message;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
@@ -24,7 +24,7 @@ public class ReactiveWebSocketHandler implements WebSocketHandler{
 	
 	
 	private Flux<String> eventFlux = Flux.generate(sink -> {
-		Event event = new Event(randomUUID().toString(), now().toString());
+		Message event = new Message(randomUUID().toString(), now().toString());
 		
 		try {
 			sink.next(json.writeValueAsString(event));

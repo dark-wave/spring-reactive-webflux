@@ -22,7 +22,7 @@ public class ReactiveWebsocketConfiguration {
 	@Bean
 	public HandlerMapping webSocketHandlerMapping() {
 		Map<String, WebSocketHandler> map = new HashMap<String, WebSocketHandler>();
-		map.put("/event-emitter", webSocketHandler);
+		map.put("/message-emitter", webSocketHandler);
 		
 		SimpleUrlHandlerMapping handlerMapping = new SimpleUrlHandlerMapping();
 		handlerMapping.setOrder(1);
