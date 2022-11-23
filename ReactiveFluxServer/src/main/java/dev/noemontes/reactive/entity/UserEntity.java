@@ -1,7 +1,5 @@
 package dev.noemontes.reactive.entity;
 
-import java.util.Date;
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
@@ -16,8 +14,6 @@ import lombok.NoArgsConstructor;
 public class UserEntity {
 	@Id
 	private Long id;
-	
 	private String name;
-	private String lastName;
-	private Date createAt;
+	private String lastname;
 }
