@@ -20,7 +20,7 @@ public class ReactiveWebClientApplication {
 		WebSocketClient client = new ReactorNettyWebSocketClient();
 		
 		client.execute(
-				URI.create("ws://localhost:8080/event-emitter"), 
+				URI.create("ws://localhost:8080/message-emitter"), 
 				session -> session.send(
 						Mono.just(session.textMessage("event-spring-reactive-client-websocket")))
 							.thenMany(session.receive()

@@ -21,8 +21,7 @@ import reactor.core.publisher.Mono;
 public class ReactiveWebSocketHandler implements WebSocketHandler{
 
 	private static final ObjectMapper json = new ObjectMapper();
-	
-	
+
 	private Flux<String> eventFlux = Flux.generate(sink -> {
 		Message event = new Message(randomUUID().toString(), now().toString());
 		

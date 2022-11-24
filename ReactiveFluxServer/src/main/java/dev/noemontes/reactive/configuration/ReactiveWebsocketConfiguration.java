@@ -12,6 +12,8 @@ import org.springframework.web.reactive.handler.SimpleUrlHandlerMapping;
 import org.springframework.web.reactive.socket.WebSocketHandler;
 import org.springframework.web.reactive.socket.server.support.WebSocketHandlerAdapter;
 
+import dev.noemontes.reactive.listener.UserEventListener;
+
 @Configuration
 public class ReactiveWebsocketConfiguration {
 	
